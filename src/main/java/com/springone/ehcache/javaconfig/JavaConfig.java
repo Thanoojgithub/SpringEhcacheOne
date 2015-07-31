@@ -22,7 +22,8 @@ public class JavaConfig {
 
 	@Bean
 	public CacheManager cacheManager() {
-		return new EhCacheCacheManager(ehCacheCacheManager().getObject());
+		EhCacheCacheManager ehCacheCacheManager = new EhCacheCacheManager(ehCacheCacheManager().getObject());
+		return ehCacheCacheManager;
 	}
 
 	@Bean
