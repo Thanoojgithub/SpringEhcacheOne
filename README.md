@@ -1,2 +1,2 @@
-# SpringEhcacheOne
-Spring using Ehcache 
+# SpringEhcache
+Spring using JavaConfig with Ehcache 
